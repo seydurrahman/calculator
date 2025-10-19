@@ -20,7 +20,7 @@ const AppCalculator = () => {
       const result = eval(expression);
       setData(result.toString());
     } catch (error) {
-      setData("Something Error");
+      setData("Error");
     }
   };
 
